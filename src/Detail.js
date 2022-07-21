@@ -9,10 +9,8 @@ import { connect } from "react-redux";
 
 function Detail(props) {
   let [alert, setAlert] = useState(true);
-  let [inputData, setInputData] = useState("");
   let [tab, setTab] = useState(0);
   let [key, setKey] = useState();
-  let stock = useContext(stockContext);
 
   useEffect(() => {
     let timer = setTimeout(() => {

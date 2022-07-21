@@ -1,10 +1,7 @@
-/* eslint-disable */
-
 import React, { useContext, useState, lazy, Suspense } from "react";
 import "./App.css";
 import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 import Data from "./data.js";
-// import Detail from "./Detail.js";
 let Detail = lazy(()=>{ return import('./Detail.js') });
 import Cart from "./Cart.js";
 import axios from "axios";
@@ -105,7 +102,6 @@ function App() {
 
 function Card(props) {
   let history = useHistory();
-  let stock = useContext(stockContext);
 
   return (
     <div
