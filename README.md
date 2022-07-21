@@ -1,6 +1,6 @@
 # 👜 React-Shop
 ![shop](https://user-images.githubusercontent.com/106085557/180212614-e94e2071-6f4e-4fb9-8fc1-10256daea5f8.png)
-링크 : [https://eomdh.github.io/todolist/](https://eomdh.github.io/todolist/)
+링크 : [https://eomdh.github.io/shop/](https://eomdh.github.io/shop/)
 
 ## 📄 개요
 * React.js를 학습하기 위해 간단하게 구현한 쇼핑몰입니다.
