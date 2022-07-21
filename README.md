@@ -1,5 +1,5 @@
 # 👜 React-Shop
-![initial](https://user-images.githubusercontent.com/106085557/170022709-b9736c2d-8f8b-4308-b6bc-ef3a291ce8fa.JPG)       
+![shop](https://user-images.githubusercontent.com/106085557/180212614-e94e2071-6f4e-4fb9-8fc1-10256daea5f8.png)
 링크 : [https://eomdh.github.io/todolist/](https://eomdh.github.io/todolist/)
 
 ## 📄 개요
@@ -7,6 +7,14 @@
 * [코딩애플님 강의](https://codingapple.com/course/react-basic/)를 참고하였습니다.
 
 ## 🛠 사용 기술
-<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/styledcomponents-DB7093?style=for-the-badge&logo=styledcomponents&logoColor=black">  
+<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/redux-764ABC?style=for-the-badge&logo=redux&logoColor=white"> <img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"> <img src="https://img.shields.io/badge/styledcomponents-DB7093?style=for-the-badge&logo=styledcomponents&logoColor=white"> <img src="https://img.shields.io/badge/sass-CC6699?style=for-the-badge&logo=sass&logoColor=white">   
 
 ## 🚀 학습 내용
+- 전역상태관리를 위해 Redux 세팅 및 활용
+- useSelector, useDispatch 훅 학습 
+- 리액트 라우터를 활용하여 라우팅
+- React.lazy 활용
+- axios를 통해 서버와 데이터를 요청 및 응답
+- CSS 프레임워크로 Bootstrap을 사용
+- Styled-Component 문법을 학습
+- SASS 활용
