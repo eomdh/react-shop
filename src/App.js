@@ -27,7 +27,7 @@ function App() {
               <Nav.Link as={Link} to="/shop">
                 Home
               </Nav.Link>
-              <Nav.Link as={Link} to="/cart">
+              <Nav.Link as={Link} to="/shop/cart">
                 Cart
               </Nav.Link>
               <NavDropdown title="Dropdown" id="basic-nav-dropdown">
