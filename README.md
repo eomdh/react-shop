@@ -4,7 +4,7 @@
 
 ## 📄 개요
 * React.js를 학습하기 위해 간단하게 구현한 쇼핑몰입니다.
-* [코딩애플님 강의](https://codingapple.com/course/react-basic/)를 참고하였습니다.
+* 코딩애플님 강의를 참고하였습니다.
 
 ## 🛠 사용 기술
 <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/redux-764ABC?style=for-the-badge&logo=redux&logoColor=white"> <img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"> <img src="https://img.shields.io/badge/styledcomponents-DB7093?style=for-the-badge&logo=styledcomponents&logoColor=white"> <img src="https://img.shields.io/badge/sass-CC6699?style=for-the-badge&logo=sass&logoColor=white">   
