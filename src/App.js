@@ -1,11 +1,12 @@
 import React, { useContext, useState, lazy, Suspense } from "react";
 import "./App.css";
+import axios from "axios";
 import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
+import { Link, Route, Switch, useHistory } from "react-router-dom";
+
+import Cart from "./Cart.js";
 import Data from "./data.js";
 let Detail = lazy(()=>{ return import('./Detail.js') });
-import Cart from "./Cart.js";
-import axios from "axios";
-import { Link, Route, Switch, useHistory } from "react-router-dom";
 
 export let stockContext = React.createContext();
 
@@ -17,13 +18,13 @@ function App() {
     <div className="App">
       <Navbar bg="light" expand="lg">
         <Container>
-          <Navbar.Brand as={Link} to="/">
+          <Navbar.Brand as={Link} to="/shop">
             ShoeShop
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link as={Link} to="/">
+              <Nav.Link as={Link} to="/shop">
                 Home
               </Nav.Link>
               <Nav.Link as={Link} to="/cart">
@@ -42,7 +43,7 @@ function App() {
       </Navbar>
 
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/shop">
           <div class="jumbotron">
             <h1 class="display-4">20% Season Off</h1>
             <p>
@@ -82,7 +83,7 @@ function App() {
           </div>
         </Route>
 
-        <Route path="/detail/:id">
+        <Route path="/shop/detail/:id">
           <stockContext.Provider value={stock}>
             <Suspense fallback={<div>로딩중</div>}>
               <Detail shoes={shoes} stock={stock} setStock={setStock} />
@@ -90,7 +91,7 @@ function App() {
           </stockContext.Provider>
         </Route>
 
-        <Route path="/cart">
+        <Route path="/shop/cart">
           <Cart></Cart>
         </Route>
       </Switch>
